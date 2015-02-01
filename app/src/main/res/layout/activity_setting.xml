@@ -7,5 +7,5 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="설정 페이지 뭐 넣어야 하지?"/>
-
+    
 </LinearLayout>

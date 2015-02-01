@@ -16,20 +16,32 @@
             android:layout_height="wrap_content"
             android:text="친구요청"
             android:textSize="10pt"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            />
         <TableLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal">
             <TableRow>
-                <TextView android:text="globell"
+                <TextView 
+                    android:text="globell"
                     android:textSize="10pt"
-                    android:layout_marginRight="20dp"/>
-                <TextView android:text="박종윤"
+                    android:layout_marginRight="20dp"
+                    />
+                <TextView 
+                    android:text="박종윤"
                     android:textSize="10pt"
-                    android:layout_marginRight="20dp"/>
-                <Button android:text="추가"/>
-                <Button android:text="거절"/>
+                    android:layout_marginRight="20dp"
+                    android:id="@+id/FriendName"
+                    />
+                <Button 
+                    android:text="추가"
+                    android:id="@+id/AddforMe"
+                    />
+                <Button 
+                    android:text="거절"
+                    android:id="@+id/Reject"
+                    />
             </TableRow>
         </TableLayout>
     </LinearLayout>
@@ -43,14 +55,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="친구 ID:"
-            android:textSize="10pt"/>
+            android:textSize="10pt"
+            />
         <EditText
             android:layout_width="180dp"
             android:layout_height="wrap_content"
-            android:hint="아이디를 입력하세요"/>
+            android:hint="아이디를 입력하세요"
+            android:id="@+id/FriendID"
+            />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="추가"/>
+            android:text="추가요청"
+            android:id="@+id/AddRequest"/>
         </LinearLayout>
 </LinearLayout>
