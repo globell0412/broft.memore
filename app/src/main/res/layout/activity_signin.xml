@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <TableRow>
+        <TextView android:text="아이디:" android:textSize="8pt"/>
+        <EditText android:hint="아이디를 입력하세요"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="비밀번호:" android:textSize="8pt"/>
+        <EditText android:hint="비밀번호를 입력하세요"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="이름:" android:textSize="8pt"/>
+        <EditText android:hint="이름을 입력하세요"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="생년월일:" android:textSize="8pt"/>
+        <EditText android:hint="생년월일을 입력하세요"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="이메일:" android:textSize="8pt"/>
+        <EditText android:hint="이메일을 입력하세요"/>
+    </TableRow>
+    <TableRow>
+        <Button android:text="취소"/>
+        <Button android:text="가입"/>
+    </TableRow>
+
+</TableLayout>

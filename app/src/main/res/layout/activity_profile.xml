@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20pt">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="10pt">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="아이디"
+                android:textSize="8pt"
+                android:layout_marginBottom="2pt"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="비밀번호"
+                android:textSize="8pt"
+                android:layout_marginBottom="2pt"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="사진 수정"/>
+        </LinearLayout>
+
+       <ImageView
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:adjustViewBounds="true"
+           android:src="@drawable/ic_launcher"/>
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TableRow>
+            <TextView android:text="생년월일:" android:textSize="8pt"/>
+            <EditText android:hint="생년월일 수정"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="이메일:" android:textSize="8pt"/>
+            <EditText android:hint="이메일 수정"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="상태 메세지:" android:textSize="8pt"/>
+            <EditText android:hint="상태 메세지 수정"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="한마디:" android:textSize="8pt"/>
+            <EditText android:hint="한마디 수정"/>
+        </TableRow>
+        <TableRow>
+            <Button android:text="취소"/>
+            <Button android:text="저장"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
